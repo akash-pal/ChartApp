@@ -1,0 +1,201 @@
+{ "mailRequests": [
+    {
+      "month": "jan",
+      "count" : 1870
+    },
+    {
+      "month": "feb",
+      "count": 1920
+    },
+    {
+      "month": "march",
+      "count": 1750
+    },
+    {
+      "month": "april",
+      "count": 1600
+    },
+    {
+      "month": "may",
+      "count": 1650
+    },
+    {
+      "month": "jun",
+      "count": 1700
+    },
+    {
+      "month": "july",
+      "count": 1800
+    },
+    {
+      "month": "aug",
+      "count": 1780
+    },
+    {
+      "month": "sep",
+      "count": 1700
+    },
+    {
+      "month": "oct",
+      "count": 1600
+    },
+    {
+      "month": "nov",
+      "count": 1400
+    },
+    {
+      "month": "dec",
+      "count": 1050
+    }
+  ],
+  "mailDelivered": [
+    {
+      "month": "jan",
+      "count" : 500
+    },
+    {
+      "month": "feb",
+      "count": 1100
+    },
+    {
+      "month": "march",
+      "count": 1300
+    },
+    {
+      "month": "april",
+      "count": 1420
+    },
+    {
+      "month": "may",
+      "count": 1300
+    },
+    {
+      "month": "jun",
+      "count": 900
+    },
+    {
+      "month": "july",
+      "count": 650
+    },
+    {
+      "month": "aug",
+      "count": 600
+    },
+    {
+      "month": "sep",
+      "count": 800
+    },
+    {
+      "month": "oct",
+      "count": 1200
+    },
+    {
+      "month": "nov",
+      "count": 1300
+    },
+    {
+      "month": "dec",
+      "count": 1400
+    }
+  ], 
+  "mailBounced": [
+    {
+      "month": "jan",
+      "count" : 1250
+    },
+    {
+      "month": "feb",
+      "count": 1050
+    },
+    {
+      "month": "march",
+      "count": 1400
+    },
+    {
+      "month": "april",
+      "count": 1450
+    },
+    {
+      "month": "may",
+      "count": 1400
+    },
+    {
+      "month": "jun",
+      "count": 900
+    },
+    {
+      "month": "july",
+      "count": 700
+    },
+    {
+      "month": "aug",
+      "count": 600
+    },
+    {
+      "month": "sep",
+      "count": 700
+    },
+    {
+      "month": "oct",
+      "count": 1200
+    },
+    {
+      "month": "nov",
+      "count": 1400
+    },
+    {
+      "month": "dec",
+      "count": 1450
+    }
+  ],
+  "mailOpened": [
+    {
+      "month": "jan",
+      "count" : 1370
+    },
+    {
+      "month": "feb",
+      "count": 1420
+    },
+    {
+      "month": "march",
+      "count": 1250
+    },
+    {
+      "month": "april",
+      "count": 1100
+    },
+    {
+      "month": "may",
+      "count": 1150
+    },
+    {
+      "month": "jun",
+      "count": 1200
+    },
+    {
+      "month": "july",
+      "count": 1300
+    },
+    {
+      "month": "aug",
+      "count": 1280
+    },
+    {
+      "month": "sep",
+      "count": 1200
+    },
+    {
+      "month": "oct",
+      "count": 1100
+    },
+    {
+      "month": "nov",
+      "count": 900
+    },
+    {
+      "month": "dec",
+      "count": 550
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- ng-app -->
+<html lang="en" ng-app="demoApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo App</title>
+
+    <link rel="preload" href="module/firstPage/firstPage.css" as="style" onload="this.rel='stylesheet'">
+
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Chrome for Android theme color -->
+    <meta name="theme-color" content="#2196f3">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Beer">
+    <link rel="icon" sizes="192x192" href="images/touch/icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Beer">
+    <link rel="apple-touch-icon" href="images/touch/icon-192x192.png">
+
+    <!-- Tile for Win8 -->
+    <meta name="msapplication-TileColor" content="#2196f3">
+    <meta name="msapplication-TileImage" content="images/touch/icon-192x192.png">
+
+</head>
+
+<body>
+
+    <ng-view></ng-view>
+
+    <noscript>
+        <p>Enable javascript for site to work</p>
+    </noscript>
+
+
+    <script src="lib/angular.min.js" defer></script>
+    <script src="lib/angular-route.min.js" defer></script>
+    <script src="lib/Chart.bundle.min.js" defer></script>
+    <script src="common/app.js" defer></script>
+    <script src="common/route.js" defer></script>
+    <script src="common/networkService.js" defer></script>
+    <script src="module/firstPage/firstPageController.js" defer></script>
+
+</body>
+
+<script>
+    // Check that service workers are registered
+    if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js').then(registration => {
+                console.log('SW registered: ', registration);
+                //registration.pushManager.subscribe({userVisibleOnly: true});
+            }).catch(registrationError => {
+                console.log('SW registration failed: ', registrationError);
+            });
+        });
+    }
+</script>
+
+</html>
